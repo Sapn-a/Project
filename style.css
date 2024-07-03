@@ -5,6 +5,60 @@
 }
 
 html, body{
-   height: 100%;
+    height: 100%;
     width: 100%;
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(3, 22, 46);
+    color: white; 
+    height:5rem;
+    line-height: 5rem;
+}
+
+.choices{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    height:150px;
+    align-items: center;
+}
+.choice{
+    border-radius: 50%;
+}
+.choice img{
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.score-board{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:80px;
+}
+.score{
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(52, 12, 90);
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+#msg{
+    background-color: blueviolet;
+    color: white;
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2rem;
 }
